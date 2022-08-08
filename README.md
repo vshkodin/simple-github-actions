@@ -1,2 +1,1 @@
-# simple-github-actions
-test 1
+# simple-github-actions-examples
