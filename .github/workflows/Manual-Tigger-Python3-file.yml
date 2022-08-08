@@ -21,6 +21,6 @@ jobs:
       - name: execute py script # run the run.py to get the latest data
         run: |
           pip install -r requirements.txt
-          pytest -vs
+          pytest -vs --alluredir=/tmp/my_allure_results
           python run.py
   
