@@ -21,5 +21,6 @@ jobs:
       - name: execute py script # run the run.py to get the latest data
         run: |
           pip install -r requirements.txt
+          pytest -vs
           python run.py
   
